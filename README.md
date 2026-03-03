@@ -1,1 +1,3 @@
 # Juego-de-reacci-n-con-ESP32
+
+Es un juego interactivo para ESP32 que combina un sistema de reacción tipo “vaqueros” y un minijuego de Simón Dice, donde los jugadores compiten presionando botones al reaccionar a LEDs encendidos y ganan puntos por acertar rápido o pierden puntos por errores o adelantarse. Incluye selección de modo (1 o 2 jugadores y dificultad), control de puntajes, tiempos de reacción y penalizaciones, además de un minijuego que se puede activar en cualquier momento mediante una interrupción y que genera una secuencia de luces que el jugador debe repetir. El sistema usa control directo de los pines, antirrebote en botones y manejo de interrupciones para permitir cambiar entre modos sin bloquear el juego principal.
